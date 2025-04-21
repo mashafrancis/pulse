@@ -1,11 +1,11 @@
-import { blog } from '@repo/cms';
-import { Feed } from '@repo/cms/components/feed';
-import { Image } from '@repo/cms/components/image';
-import { cn } from '@repo/design-system/lib/utils';
-import { getDictionary } from '@repo/internationalization';
-import type { Blog, WithContext } from '@repo/seo/json-ld';
-import { JsonLd } from '@repo/seo/json-ld';
-import { createMetadata } from '@repo/seo/metadata';
+import { blog } from '@pulse/cms';
+import { Feed } from '@pulse/cms/components/feed';
+import { Image } from '@pulse/cms/components/image';
+import { cn } from '@pulse/design-system/lib/utils';
+import { getDictionary } from '@pulse/internationalization';
+import type { Blog, WithContext } from '@pulse/seo/json-ld';
+import { JsonLd } from '@pulse/seo/json-ld';
+import { createMetadata } from '@pulse/seo/metadata';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 

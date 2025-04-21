@@ -1,10 +1,10 @@
 import { Sidebar } from '@/components/sidebar';
 import { ArrowLeftIcon } from '@radix-ui/react-icons';
-import { legal } from '@repo/cms';
-import { Body } from '@repo/cms/components/body';
-import { Feed } from '@repo/cms/components/feed';
-import { TableOfContents } from '@repo/cms/components/toc';
-import { createMetadata } from '@repo/seo/metadata';
+import { legal } from '@pulse/cms';
+import { Body } from '@pulse/cms/components/body';
+import { Feed } from '@pulse/cms/components/feed';
+import { TableOfContents } from '@pulse/cms/components/toc';
+import { createMetadata } from '@pulse/seo/metadata';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';

@@ -1,5 +1,5 @@
 {
-  "name": "@repo/database",
+  "name": "@pulse/database",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -10,21 +10,19 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^0.10.4",
-    "@prisma/adapter-neon": "6.4.1",
-    "@prisma/client": "6.4.1",
+    "@prisma/client": "6.6.0",
+    "@prisma/extension-accelerate": "^1.3.0",
     "@t3-oss/env-nextjs": "^0.12.0",
     "server-only": "^0.0.1",
-    "undici": "^7.4.0",
-    "ws": "^8.18.1",
+    "undici": "^7.7.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "@types/node": "22.13.14",
-    "@types/ws": "^8.18.0",
+    "@pulse/typescript-config": "workspace:*",
+    "@types/node": "22.14.0",
+    "@types/ws": "^8.18.1",
     "bufferutil": "^4.0.9",
-    "prisma": "6.4.1",
-    "typescript": "^5.8.2"
+    "prisma": "6.6.0",
+    "typescript": "^5.8.3"
   }
 }

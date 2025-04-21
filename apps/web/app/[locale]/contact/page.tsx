@@ -1,5 +1,5 @@
-import { getDictionary } from '@repo/internationalization';
-import { createMetadata } from '@repo/seo/metadata';
+import { getDictionary } from '@pulse/internationalization';
+import { createMetadata } from '@pulse/seo/metadata';
 import type { Metadata } from 'next';
 import { ContactForm } from './components/contact-form';
 

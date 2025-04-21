@@ -1,8 +1,8 @@
 import { env } from '@/env';
-import { blog } from '@repo/cms';
-import { Feed } from '@repo/cms/components/feed';
-import { Button } from '@repo/design-system/components/ui/button';
-import type { Dictionary } from '@repo/internationalization';
+import { blog } from '@pulse/cms';
+import { Feed } from '@pulse/cms/components/feed';
+import { Button } from '@pulse/design-system/components/ui/button';
+import type { Dictionary } from '@pulse/internationalization';
 import { MoveRight, PhoneCall } from 'lucide-react';
 import Link from 'next/link';
 

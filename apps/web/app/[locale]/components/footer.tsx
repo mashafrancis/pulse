@@ -1,7 +1,7 @@
 import { env } from '@/env';
-import { legal } from '@repo/cms';
-import { Feed } from '@repo/cms/components/feed';
-import { Status } from '@repo/observability/status';
+import { legal } from '@pulse/cms';
+import { Feed } from '@pulse/cms/components/feed';
+import { Status } from '@pulse/observability/status';
 import Link from 'next/link';
 
 export const Footer = () => (

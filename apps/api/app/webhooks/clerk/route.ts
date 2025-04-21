@@ -1,13 +1,13 @@
 import { env } from '@/env';
-import { analytics } from '@repo/analytics/posthog/server';
+import { analytics } from '@pulse/analytics/posthog/server';
 import type {
   DeletedObjectJSON,
   OrganizationJSON,
   OrganizationMembershipJSON,
   UserJSON,
   WebhookEvent,
-} from '@repo/auth/server';
-import { log } from '@repo/observability/log';
+} from '@pulse/auth/server';
+import { log } from '@pulse/observability/log';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
 import { Webhook } from 'svix';
